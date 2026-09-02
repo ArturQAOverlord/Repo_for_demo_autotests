@@ -17,10 +17,4 @@ class LoginPage:
         self.username_input.fill(username)
         self.password_input.fill(password)
         self.login_button.click()
-
-
-    #     page.goto("https://demoqa.ru/qa-auto/book-store")
-    # page.get_by_role("button", name="Вход").click()
-    # page.get_by_role("textbox", name="Имя пользователя").click()
-    # page.get_by_role("textbox", name="Пароль").click()
-    # page.get_by_role("main").get_by_role("button", name="Войти").click()
+        self.page.get_by_role("button", name="Книжный магазин").click()

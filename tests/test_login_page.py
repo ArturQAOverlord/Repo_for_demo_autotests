@@ -10,5 +10,3 @@ def test_login(page, user):
         user["username"],
         user["password"]
     )
-
-    
