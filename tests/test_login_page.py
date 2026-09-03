@@ -8,5 +8,6 @@ def test_login(page, user):
 
     login_page.login(
         user["username"],
-        user["password"]
+        user["password"],
+        user["book_list"]
     )
